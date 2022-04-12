@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Modificar datos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" type="image/png" href="../img/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	</head>
+	<body class="body-historial-compras">
+		<header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark menu-macetitas">
+                <div class="container-fluid">
+                  <a href="../index.html"><img class="logo" src="../img/logo_mis_macetitas_1370x256.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../mi-cuenta/menu-ingresado.html">Inicio</a>
+                      </li>
+                      
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tienda</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../tienda/maceteros.html">Maceteros</a></li>
+                          <li><a class="dropdown-item" href="../tienda/tierra-de-hoja.html">Tierra de hoja</a></li>
+                          <li><a class="dropdown-item" href="../tienda/arbustos.html">Arbustos</a></li>
+                          <li><a class="dropdown-item" href="../tienda/flores.html">Flores</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../mi-cuenta/historial-compras.html">Historial compras</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle activo" href="#" role="button" data-bs-toggle="dropdown">Cuenta</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../mi-cuenta/modificar-datos.html">Modificar datos</a></li>
+                          <li><a class="dropdown-item" href="../index.html">Salir</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  fa-solid fa-cart-shopping "rel="icon"  href="carrito-compras.html"></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Buscar">
+                        <button class="btn btn-primary boton-macetitas" type="button">Buscar</button>
+                      </form>
+                  </div>
+                </div>
+              </nav>              
+		</header>
+		<div class="decoracion"><h1>Modificar datos</h1></div>
+
+    <form action="../mi-cuenta/menu-ingresado.html" class="formulario" method="get">
+       
+       <div class="contenedor" id="formulario-inicio-registro">
+       <p style="text-align: left;">Nuevo nombre:</p>
+       <div class="input-contenedor">
+           <i class="fas fa-user icon"></i>
+           <input type="text" placeholder="Juan Perez Lavin" id="txtNombreRegistroNuevo" name="txtNombreRegistroNuevo">
+           </div>
+           <p style="text-align: left;">Nuevo correo:</p>
+           <div class="input-contenedor">
+           <i class="fas fa-envelope icon"></i>
+           <input type="email" placeholder="contacto@macetitas.cl" id="txtEmailRegistroNuevo" name="txtEmailRegistroNuevo">
+           </div>
+           <p style="text-align: left;">Nueva contraseña:</p>
+           <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+           <input type="password" placeholder="Contraseña" id="txtPassRegistro Nuevo" name="txtPassRegistroNuevo">
+           
+           </div>
+           <input href="" type="submit" value="Actualizar" class="btn btn-success"  id="btnGuardarDatos" name="btnGuardarDatos">
+           
+       </div>
+      </form>
+            
+
+        
+
+		<footer>
+			<p>Mis macetitas | Tel: +569 13654785 | Correo: contacto@mismacetitas.cl | <img src="../img/logo_footer.png" alt=""></p>
+		</footer>
+
+
+	</body>
+</html>

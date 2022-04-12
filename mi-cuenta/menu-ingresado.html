@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mis macetitas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" type="image/png" href="../img/favicon.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	</head>
+	<body>
+		<header> 
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark menu-macetitas">
+                <div class="container-fluid">
+                  <a href="../index.html"><img class="logo" src="../img/logo_mis_macetitas_1370x256.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link activo" href="../mi-cuenta/menu-ingresado.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tienda</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../tienda/maceteros.html">Maceteros</a></li>
+                          <li><a class="dropdown-item" href="../tienda/tierra-de-hoja.html">Tierra de hoja</a></li>
+                          <li><a class="dropdown-item" href="../tienda/arbustos.html">Arbustos</a></li>
+                          <li><a class="dropdown-item" href="../tienda/flores.html">Flores</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../mi-cuenta/historial-compras.html">Historial compras</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Cuenta</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="../mi-cuenta/modificar-datos.html">Modificar datos</a></li>
+                          <li><a class="dropdown-item" href="../index.html">Salir</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  fa-solid fa-cart-shopping "rel="icon"  href="carrito-compras.html"></a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Buscar">
+                        <button class="btn btn-primary boton-macetitas" type="button">Buscar</button>
+                      </form>
+                  </div>
+                </div>
+              </nav>              
+		</header>
+		
+    <section id="slide-macetitas">
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+ <!-- Indicators/dots -->
+ <div class="carousel-indicators">
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+ </div>
+
+ <!-- The slideshow/carousel -->
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img src="../img/slide-1.png" alt="Los Angeles" class="d-block w-100">
+     <div class="carousel-caption">
+         <h3>Maceteros de cerámica</h3>
+         <p>Aprovecha un 5% de descuento</p>
+       </div>
+   </div>
+   <div class="carousel-item">
+     <img src="../img/slide-2.png" alt="Chicago" class="d-block w-100">
+     <div class="carousel-caption">
+         <h3>Maceteros de plásticos</h3>
+         <p>Aprovecha un 10% de descuento</p>
+       </div>
+   </div>
+   <div class="carousel-item">
+     <img src="../img/slide-3.png" alt="New York" class="d-block w-100">
+     <div class="carousel-caption">
+         <h3>Maceteros de greda</h3>
+         <p>Aprovecha la oferta 2x1 </p>
+       </div>
+   </div>
+ </div>
+
+ <!-- Left and right controls/icons -->
+ <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+ </button>
+ <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+   <span class="carousel-control-next-icon"></span>
+ </button>
+</div>
+     </section>
+     
+
+     <section id="quienes-somos">
+      <div id="div-quienes-somos">
+        <h1>¡Ofertas especiales para ti!</h1>
+        
+      </div>
+    </section>
+
+     <section>
+         <section id="mas-comprados">
+             <div id="div-mas-comprados">
+               <div class="row">
+                   <div class="col-4"><img src="../img/macetero-1.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                   <div class="col-4"><img src="../img/macetero-2.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                   <div class="col-4"><img src="../img/macetero-3.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-4"><img src="../img/macetero-4.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                   <div class="col-4"><img src="../img/macetero-5.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                   <div class="col-4"><img src="../img/macetero-6.png" alt="">
+                     <br>
+                     <p class="precio">$9.990</p> 
+                     <button type="button" class="btn btn-success" >Añadir al carro</button>
+                   </div>
+                 </div>
+             </div>
+           </section>
+     </section>
+</div>
+		<footer>
+			<p>Mis macetitas | Tel: +569 13654785 | Correo: contacto@mismacetitas.cl | <img src="../img/logo_footer.png" alt=""></p>
+		</footer>
+
+
+	</body>
+</html>
